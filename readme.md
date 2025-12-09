@@ -40,30 +40,12 @@ Time slices can be selected from 15ms up to 500ms. Slower time slicing can allow
 
 Note that Timer resolution is affected by integer math division and the time slice selected. Trying to measure 100ms accurately, using a 60ms time slice for example, won't work.
 
-Watchdog period options:
-* WDTO_15MS
-* WDTO_30MS
-* WDTO_60MS
-* WDTO_120MS
-* WDTO_250MS
-* WDTO_500MS
-
 There are [multiple options for configuring the heap in freeRTOS](https://www.freertos.org/a00111.html). Please read the freeRTOS descriptions for the appropriate solution relevant to the application.
 Heap 3 has been implemented for this repository.
 
 # Compatibility
 
-  * ATmega328 @ 16MHz : Arduino UNO, Arduino Duemilanove, Arduino Diecimila, etc.
-  * ATmega328 @ 16MHz : Adafruit Pro Trinket 5V, Adafruit Metro 328, Adafruit Metro Mini
-  * ATmega328 @ 16MHz : Seeed Studio Stalker
-  * ATmega328 @ 16MHz : Freetronics Eleven
-  * ATmega328 @ 12MHz : Adafruit Pro Trinket 3V
-  * ATmega32u4 @ 16MHz : Arduino Leonardo, Arduino Micro, Arduino Yun, Teensy 2.0
-  * ATmega32u4 @ 8MHz : Adafruit Flora, Bluefruit Micro
-  * ATmega1284p @ 24.576MHz : Seeed Studio Goldilocks, Seeed Studio Goldilocks Analogue
-  * ATmega2560 @ 16MHz : Arduino Mega, Arduino ADK
-  * ATmega2560 @ 16MHz : Seeed Studio ADK
-  * ATmegaXXXX @ XXMHz : Anything with an ATmega MCU, really.
+Specially configured for Atmega16
 
 # Errors
 
