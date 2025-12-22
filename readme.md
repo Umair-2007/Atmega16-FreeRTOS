@@ -45,7 +45,7 @@ Heap 3 has been implemented for this repository.
 
 # Compatibility
 
-Specially configured for Atmega16
+Compatible with all AVR microcontrollers 
 
 # Errors
 
