@@ -46,6 +46,7 @@ Heap 3 has been implemented for this repository.
 # Compatibility
 
 Compatible with all AVR microcontrollers 
+Works with ATmega, XMega, Or ATtiny
 
 # Errors
 
